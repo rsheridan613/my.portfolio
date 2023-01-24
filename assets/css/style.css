@@ -87,11 +87,17 @@ header h1 {
   padding: 1rem;
 }
 /* Project Copy */
-.project-img {
-  border: 3px solid var(--myBlue);
-  max-width: 90%;
+.projects-copy {
+  flex-wrap: wrap;
+  /* min-height: calc(100vh + 19vh); */
 }
-.project-img :hover {
+.project-img {
+  max-width: 47%;
+  margin: 1rem;
+  border: 3px solid var(--myBlue);
+  border-radius: 25px;
+}
+.projects a :hover {
   border: 3px solid var(--myYellow);
 }
 
